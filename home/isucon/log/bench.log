@@ -1,36 +1,10 @@
-15:59:10 type:info	message:launch benchmarker
-15:59:10 type:warning	message:Result not sent to server because API key is not set
-15:59:10 type:info	message:init environment
-15:59:29 type:info	message:run benchmark workload: 32
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-16:00:29 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-16:00:29 type:info	message:finish benchmark workload: 32
-16:00:34 type:info	message:check banned ips and locked users report
-16:00:34 type:report	count:banned ips	value:1
-16:00:34 type:report	count:locked users	value:3368
-16:00:34 type:info	message:Result not sent to server because API key is not set
-16:00:34 type:score	success:102358	fail:26	score:22130
+16:09:13 type:info	message:launch benchmarker
+16:09:13 type:warning	message:Result not sent to server because API key is not set
+16:09:13 type:info	message:init environment
+16:09:32 type:info	message:run benchmark workload: 16
+16:10:32 type:info	message:finish benchmark workload: 16
+16:10:37 type:info	message:check banned ips and locked users report
+16:10:37 type:report	count:banned ips	value:111
+16:10:37 type:report	count:locked users	value:3639
+16:10:37 type:info	message:Result not sent to server because API key is not set
+16:10:37 type:score	success:117810	fail:0	score:25453
