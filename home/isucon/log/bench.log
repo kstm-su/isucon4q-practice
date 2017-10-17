@@ -1,31 +1,10 @@
-13:06:32 type:info	message:launch benchmarker
-13:06:32 type:warning	message:Result not sent to server because API key is not set
-13:06:32 type:info	message:init environment
-13:06:50 type:info	message:run benchmark workload: 1
-13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:06 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:06 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:06 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:06 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:44 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
-13:07:44 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
-13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:44 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
-13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:07:44 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
-13:07:50 type:info	message:finish benchmark workload: 1
-13:07:55 type:info	message:check banned ips and locked users report
-13:07:55 type:report	count:banned ips	value:267
-13:07:55 type:report	count:locked users	value:3197
-13:07:55 type:fail	reason:Missmatch banned Users	message:Report checking is failed. Do not send score.
-13:07:55 type:score	success:68455	fail:21	score:14787
+13:22:43 type:info	message:launch benchmarker
+13:22:43 type:warning	message:Result not sent to server because API key is not set
+13:22:43 type:info	message:init environment
+13:23:01 type:info	message:run benchmark workload: 1
+13:24:01 type:info	message:finish benchmark workload: 1
+13:24:06 type:info	message:check banned ips and locked users report
+13:24:06 type:report	count:banned ips	value:203
+13:24:06 type:report	count:locked users	value:3046
+13:24:06 type:info	message:Result not sent to server because API key is not set
+13:24:06 type:score	success:53540	fail:0	score:11565
