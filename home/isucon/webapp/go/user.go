@@ -21,13 +21,15 @@ type LastLogin struct {
 
 func (u *User) getLastLogin() *LastLogin {
 	LastLoginDBIndexUserIDMutex.RLock()
-	defer LastLoginDBIndexUserIDMutex.RUnlock()
-	if LastLoginDBIndexUserID[u.ID][0] == nil {
-		u.LastLogin = LastLoginDBIndexUserID[u.ID][1]
-		return LastLoginDBIndexUserID[u.ID][1]
+	lastLogin0 := LastLoginDBIndexUserID[u.ID][0]
+	lastLogin1 := LastLoginDBIndexUserID[u.ID][1]
+	LastLoginDBIndexUserIDMutex.RUnlock()
+	if lastLogin0 == nil {
+		u.LastLogin = lastLogin1
+		return lastLogin1
 	}
-	u.LastLogin = LastLoginDBIndexUserID[u.ID][0]
-	return LastLoginDBIndexUserID[u.ID][0]
+	u.LastLogin = lastLogin0
+	return lastLogin0
 	/*
 		rows, err := db.Query(
 			"SELECT login, ip, created_at FROM login_log WHERE succeeded = 1 AND user_id = ? ORDER BY id DESC LIMIT 2",

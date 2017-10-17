@@ -1,7 +1,7 @@
 package main
 
 import (
-	"database/sql"
+//	"database/sql"
 	"errors"
 	"net/http"
 	"sort"
@@ -97,23 +97,19 @@ func initializeInmemmoryDB() error {
 }
 
 func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error {
-	LoginLogDBMutex.Lock()
-	defer LoginLogDBMutex.Unlock()
-	LoginLogDBIndexIPMutex.Lock()
-	defer LoginLogDBIndexIPMutex.Unlock()
 	/*
 		succ := 0
 		if succeeded {
 			succ = 1
 		}
 	*/
+	/*
 	var userId sql.NullInt64
 	if user != nil {
 		userId.Int64 = int64(user.ID)
 		userId.Valid = true
 	}
 
-	/*
 		_, err := db.Exec(
 			"INSERT INTO login_log (`created_at`, `user_id`, `login`, `ip`, `succeeded`) "+
 				"VALUES (?,?,?,?,?)",
@@ -122,12 +118,13 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
 		_=err
 	*/
 	if succeeded {
-		l := &LastLogin{login, remoteAddr, time.Now()}
 		LastLoginDBIndexUserIDMutex.Lock()
-		LastLoginDBIndexUserID[user.ID][0], LastLoginDBIndexUserID[user.ID][1], l = LastLoginDBIndexUserID[user.ID][1], l, LastLoginDBIndexUserID[user.ID][0]
+		LastLoginDBIndexUserID[user.ID][0], LastLoginDBIndexUserID[user.ID][1] = LastLoginDBIndexUserID[user.ID][1], &LastLogin{login, remoteAddr, time.Now()}
 		LastLoginDBIndexUserIDMutex.Unlock()
 	}
 
+	LoginLogDBMutex.Lock()
+	LoginLogDBIndexIPMutex.Lock()
 	if succeeded {
 		LoginLogDB[user.ID] = 0
 		LoginLogDBIndexIP[remoteAddr] = 0
@@ -137,6 +134,8 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
 		}
 		LoginLogDBIndexIP[remoteAddr]++
 	}
+	LoginLogDBMutex.Unlock()
+	LoginLogDBIndexIPMutex.Unlock()
 
 	return nil
 }

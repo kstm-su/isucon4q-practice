@@ -9,6 +9,7 @@ import (
 	"log"
 	"os"
 	"strconv"
+	"runtime"
 )
 
 var db *sql.DB
@@ -50,6 +51,8 @@ func init() {
 }
 
 func main() {
+	cpus := runtime.NumCPU()
+	runtime.GOMAXPROCS(cpus)
 	r := gin.Default()
 
 	store := sessions.NewCookieStore([]byte("secret-isucon"))
