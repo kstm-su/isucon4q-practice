@@ -1,6 +1,11 @@
 /*
 !/.gitignore
+
 !/etc/
 /etc/*
 !/etc/supervisord.conf
 !/etc/my.cnf
+
+!/home/
+/home/*
+!/home/isucon/
