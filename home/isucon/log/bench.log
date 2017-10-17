@@ -1,10 +1,24 @@
-16:41:29 type:info	message:launch benchmarker
-16:41:29 type:warning	message:Result not sent to server because API key is not set
-16:41:29 type:info	message:init environment
-16:41:48 type:info	message:run benchmark workload: 3
-16:42:48 type:info	message:finish benchmark workload: 3
-16:42:53 type:info	message:check banned ips and locked users report
-16:42:53 type:report	count:banned ips	value:435
-16:42:53 type:report	count:locked users	value:3739
-16:42:53 type:info	message:Result not sent to server because API key is not set
-16:42:53 type:score	success:119960	fail:0	score:25913
+16:48:58 type:info	message:launch benchmarker
+16:48:58 type:warning	message:Result not sent to server because API key is not set
+16:48:58 type:info	message:init environment
+16:49:17 type:info	message:run benchmark workload: 16
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+16:50:17 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+16:50:17 type:info	message:finish benchmark workload: 16
+16:50:22 type:info	message:check banned ips and locked users report
+16:50:22 type:report	count:banned ips	value:109
+16:50:22 type:report	count:locked users	value:3664
+16:50:22 type:info	message:Result not sent to server because API key is not set
+16:50:22 type:score	success:120392	fail:14	score:26014
