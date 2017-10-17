@@ -3,3 +3,4 @@
 !/etc/
 /etc/*
 !/etc/supervisord.conf
+!/etc/my.cnf
