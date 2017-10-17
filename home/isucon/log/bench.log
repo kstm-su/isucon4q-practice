@@ -1,43 +1,10 @@
-13:43:18 type:info	message:launch benchmarker
-13:43:18 type:warning	message:Result not sent to server because API key is not set
-13:43:18 type:info	message:init environment
-13:43:36 type:info	message:run benchmark workload: 32
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
-13:44:36 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-13:44:37 type:info	message:finish benchmark workload: 32
-13:44:42 type:info	message:check banned ips and locked users report
-13:44:42 type:report	count:banned ips	value:1
-13:44:42 type:report	count:locked users	value:3359
-13:44:42 type:fail	reason:Missmatch banned Users	message:Report checking is failed. Do not send score.
-13:44:42 type:score	success:98279	fail:33	score:21248
+13:45:39 type:info	message:launch benchmarker
+13:45:39 type:warning	message:Result not sent to server because API key is not set
+13:45:39 type:info	message:init environment
+13:45:57 type:info	message:run benchmark workload: 8
+13:46:57 type:info	message:finish benchmark workload: 8
+13:47:02 type:info	message:check banned ips and locked users report
+13:47:02 type:report	count:banned ips	value:439
+13:47:02 type:report	count:locked users	value:3591
+13:47:02 type:info	message:Result not sent to server because API key is not set
+13:47:02 type:score	success:109810	fail:0	score:23723
