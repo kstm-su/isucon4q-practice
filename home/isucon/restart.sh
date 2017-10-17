@@ -12,7 +12,7 @@ service mysqld restart
 /home/isucon/init.sh
 supervisorctl restart isucon_go
 
-sleep 10
+sleep 3
 
 echo 'start benchmark'
 output=`/home/isucon/benchmarker bench --workload ${1:-16}`
