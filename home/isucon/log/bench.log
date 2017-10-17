@@ -1,16 +1,13 @@
-18:03:15 type:info	message:launch benchmarker
-18:03:15 type:warning	message:Result not sent to server because API key is not set
-18:03:15 type:info	message:init environment
-18:03:35 type:info	message:run benchmark workload: 16
-18:04:17 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:04:20 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:04:21 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:04:23 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:04:26 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:04:30 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:04:35 type:info	message:finish benchmark workload: 16
-18:04:40 type:info	message:check banned ips and locked users report
-18:04:40 type:report	count:banned ips	value:1028
-18:04:40 type:report	count:locked users	value:4968
-18:04:40 type:info	message:Result not sent to server because API key is not set
-18:04:40 type:score	success:248790	fail:6	score:53744
+18:05:55 type:info	message:launch benchmarker
+18:05:55 type:warning	message:Result not sent to server because API key is not set
+18:05:55 type:info	message:init environment
+18:06:14 type:info	message:run benchmark workload: 5
+18:06:48 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:07:02 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:07:03 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:07:14 type:info	message:finish benchmark workload: 5
+18:07:19 type:info	message:check banned ips and locked users report
+18:07:19 type:report	count:banned ips	value:981
+18:07:19 type:report	count:locked users	value:5121
+18:07:20 type:info	message:Result not sent to server because API key is not set
+18:07:20 type:score	success:255305	fail:3	score:55148
