@@ -1,10 +1,14 @@
-14:43:01 type:info	message:launch benchmarker
-14:43:01 type:warning	message:Result not sent to server because API key is not set
-14:43:01 type:info	message:init environment
-14:43:20 type:info	message:run benchmark workload: 16
-14:44:20 type:info	message:finish benchmark workload: 16
-14:44:25 type:info	message:check banned ips and locked users report
-14:44:25 type:report	count:banned ips	value:81
-14:44:25 type:report	count:locked users	value:3598
-14:44:25 type:info	message:Result not sent to server because API key is not set
-14:44:25 type:score	success:112720	fail:0	score:24354
+14:47:03 type:info	message:launch benchmarker
+14:47:03 type:warning	message:Result not sent to server because API key is not set
+14:47:03 type:info	message:init environment
+14:47:21 type:info	message:run benchmark workload: 32
+14:48:21 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+14:48:22 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
+14:48:22 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
+14:48:22 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
+14:48:22 type:info	message:finish benchmark workload: 32
+14:48:27 type:info	message:check banned ips and locked users report
+14:48:27 type:report	count:banned ips	value:1
+14:48:27 type:report	count:locked users	value:3317
+14:48:27 type:info	message:Result not sent to server because API key is not set
+14:48:27 type:score	success:99502	fail:4	score:21510
