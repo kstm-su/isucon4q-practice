@@ -1,2 +1,5 @@
 /*
 !/.gitignore
+!/etc/
+/etc/*
+!/etc/supervisord.conf
