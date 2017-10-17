@@ -3,15 +3,16 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	"log"
-	"net"
-	"github.com/go-martini/martini"
+	//"github.com/go-martini/martini"
+	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/martini-contrib/render"
 	"github.com/martini-contrib/sessions"
+	"log"
+	"net"
 	"net/http"
-	"strconv"
 	"os"
+	"strconv"
 )
 
 var db *sql.DB
@@ -53,7 +54,8 @@ func init() {
 }
 
 func main() {
-	m := martini.Classic()
+//	m := martini.Classic()
+	m := gin.Default()
 
 	store := sessions.NewCookieStore([]byte("secret-isucon"))
 	m.Use(sessions.Sessions("isucon_go_session", store))
@@ -109,16 +111,10 @@ func main() {
 			"locked_users": lockedUsers(),
 		})
 	})
-	m.Get("/reportx", func(r render.Render) {
-		r.JSON(200, map[string][]string{
-			"banned_ips":   bannedIPsx(),
-			"locked_users": lockedUsersx(),
-		})
-	})
 
 	m.Get("/version", func(r render.Render) {
 		r.JSON(200, map[string]string{
-			"version":   "1",
+			"version": "1",
 		})
 	})
 
