@@ -12,7 +12,7 @@ Count: 2  Time=0.00s (0s)  Lock=0.00s (0s)  Rows=1.0 (2), root[root]@localhost
 Count: 1  Time=0.00s (0s)  Lock=0.00s (0s)  Rows=0.0 (0), root[root]@localhost
   CREATE DATABASE isu4_qualifier
 
-Count: 1  Time=0.00s (0s)  Lock=0.01s (0s)  Rows=0.0 (0), root[root]@localhost
+Count: 1  Time=0.00s (0s)  Lock=0.00s (0s)  Rows=0.0 (0), root[root]@localhost
   DROP DATABASE IF EXISTS isu4_qualifier
 
 Count: 1  Time=0.00s (0s)  Lock=0.00s (0s)  Rows=0.0 (0), root[root]@localhost
@@ -26,7 +26,7 @@ Count: 1  Time=0.00s (0s)  Lock=0.00s (0s)  Rows=0.0 (0), root[root]@localhost
   KEY succeeded_user_id_id_key (`succeeded`, `user_id`, `id`),
   ) DEFAULT CHARSET=utf8
 
-Count: 2  Time=0.00s (0s)  Lock=0.00s (0s)  Rows=0.0 (0), 2users@localhost
+Count: 2  Time=0.00s (0s)  Lock=0.00s (0s)  Rows=0.0 (0), [UNKNOWN_MYSQL_USER]@localhost
   #
 
 Count: 1  Time=0.00s (0s)  Lock=0.00s (0s)  Rows=0.0 (0), 0users@0hosts

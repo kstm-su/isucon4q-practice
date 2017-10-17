@@ -1,1 +1,1 @@
-08:06:56 type:info message:launch benchmarker 08:06:56 type:warning message:Result not sent to server because API key is not set 08:06:56 type:info message:init environment 08:06:56 type:fail reason:init script failed log:exit status 1 message:Do not run benchmark
+08:07:46 type:info message:launch benchmarker 08:07:46 type:warning message:Result not sent to server because API key is not set 08:07:46 type:info message:init environment 08:07:46 type:fail reason:init script failed log:exit status 1 message:Do not run benchmark
