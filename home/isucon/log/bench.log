@@ -1,10 +1,1214 @@
-16:53:01 type:info	message:launch benchmarker
-16:53:01 type:warning	message:Result not sent to server because API key is not set
-16:53:01 type:info	message:init environment
-16:53:20 type:info	message:run benchmark workload: 16
-16:54:20 type:info	message:finish benchmark workload: 16
-16:54:25 type:info	message:check banned ips and locked users report
-16:54:25 type:report	count:banned ips	value:94
-16:54:25 type:report	count:locked users	value:3654
-16:54:25 type:info	message:Result not sent to server because API key is not set
-16:54:25 type:score	success:118490	fail:0	score:25600
+17:00:36 type:info	message:launch benchmarker
+17:00:36 type:warning	message:Result not sent to server because API key is not set
+17:00:36 type:info	message:init environment
+17:00:56 type:info	message:run benchmark workload: 16
+17:00:57 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:00:59 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:00:59 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:00:59 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:00 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:00 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:01 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:01 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:01 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:01 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:02 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:02 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:02 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:02 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:02 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:02 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:03 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:04 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:05 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:06 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:07 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:08 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:09 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:10 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:11 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:12 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:13 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:14 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:15 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:15 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:15 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:16 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:16 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:16 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:17 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:17 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:17 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:17 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:17 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:18 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:18 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:18 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:18 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:18 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:18 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:18 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:18 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:19 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:20 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:21 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:22 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:23 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:24 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:25 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:26 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:27 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:28 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:29 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:30 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:31 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:32 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:33 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:34 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:34 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:34 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:34 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:35 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:35 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:35 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:35 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:35 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:35 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:35 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:36 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:36 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:36 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:36 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:36 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:36 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:36 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:37 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:37 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:37 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:37 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:37 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:37 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:37 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:37 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:38 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:39 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:39 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:40 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:41 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:42 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:43 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:44 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:45 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected html text is match: This account is locked., got You're banned.	method:GET	uri:/
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:46 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:47 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:47 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:48 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:48 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:49 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:50 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:50 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:51 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:52 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:52 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:53 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:53 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:53 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:53 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:53 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:53 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:53 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:53 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:54 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:54 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:54 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:54 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:54 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:54 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:54 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:54 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:55 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:55 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:55 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected html text is match: This account is locked., got You're banned.	method:GET	uri:/
+17:01:55 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:55 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected html text is match: This account is locked., got You're banned.	method:GET	uri:/
+17:01:55 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:55 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:55 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:56 type:fail	reason:Expected location is miss match /, got: /mypage	method:GET	uri:/mypage
+17:01:56 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:56 type:fail	reason:Expected html text is match: Wrong username or password, got You're banned.	method:GET	uri:/
+17:01:56 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+17:01:56 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:56 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:56 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:56 type:fail	reason:Expected selector is not found: //*[@id='last-logined-ip']	method:GET	uri:/mypage
+17:01:56 type:info	message:finish benchmark workload: 16
+17:02:01 type:info	message:check banned ips and locked users report
+17:02:01 type:report	count:banned ips	value:103
+17:02:01 type:report	count:locked users	value:3659
+17:02:01 type:fail	reason:Missmatch banned IPs	message:Report checking is failed. Do not send score.
+17:02:01 type:score	success:114080	fail:1204	score:24649
