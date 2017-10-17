@@ -1,16 +1,16 @@
-18:00:40 type:info	message:launch benchmarker
-18:00:40 type:warning	message:Result not sent to server because API key is not set
-18:00:40 type:info	message:init environment
-18:00:58 type:info	message:run benchmark workload: 8
-18:01:14 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:01:15 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:01:18 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:01:23 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:01:47 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:01:54 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
-18:01:58 type:info	message:finish benchmark workload: 8
-18:02:03 type:info	message:check banned ips and locked users report
-18:02:03 type:report	count:banned ips	value:1035
-18:02:03 type:report	count:locked users	value:5066
-18:02:04 type:info	message:Result not sent to server because API key is not set
-18:02:04 type:score	success:254020	fail:6	score:54872
+18:03:15 type:info	message:launch benchmarker
+18:03:15 type:warning	message:Result not sent to server because API key is not set
+18:03:15 type:info	message:init environment
+18:03:35 type:info	message:run benchmark workload: 16
+18:04:17 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:04:20 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:04:21 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:04:23 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:04:26 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:04:30 type:fail	reason:Expected html text is match: You're banned., got This account is locked.	method:GET	uri:/
+18:04:35 type:info	message:finish benchmark workload: 16
+18:04:40 type:info	message:check banned ips and locked users report
+18:04:40 type:report	count:banned ips	value:1028
+18:04:40 type:report	count:locked users	value:4968
+18:04:40 type:info	message:Result not sent to server because API key is not set
+18:04:40 type:score	success:248790	fail:6	score:53744
