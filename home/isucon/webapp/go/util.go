@@ -23,8 +23,8 @@ func getFlash(session sessions.Session, key string) string {
 	if value == nil {
 		return ""
 	} else {
-		session.Delete(key)
-		session.Save()
+		//session.Delete(key)
+		//session.Save()
 		return value.(string)
 	}
 }

@@ -1,6 +1,7 @@
 cp /var/log/mysql-slow.sql /var/log.mysql-slow.sql.old
 cp /var/log/nginx/access.log /var/log/nginx/access.log.old
 cp /var/log/nginx/error.log /var/log/nginx/error.log.old
+cp /home/isucon/log/kataribe.log /home/isucon/log/kataribe.log.old
 > /var/log/mysql-slow.sql
 > /var/log/nginx/access.log
 > /var/log/nginx/error.log 

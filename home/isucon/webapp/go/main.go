@@ -53,42 +53,53 @@ func init() {
 func main() {
 	cpus := runtime.NumCPU()
 	runtime.GOMAXPROCS(cpus)
+
 	r := gin.Default()
 
 	store := sessions.NewCookieStore([]byte("secret-isucon"))
 	r.Use(sessions.Sessions("isucon_go_session", store))
 
-	r.Static("/images", "../public/images")
-	r.Static("/stylesheets", "../public/stylesheets")
+	//r.Static("/images", "../public/images")
+	//r.Static("/stylesheets", "../public/stylesheets")
 	r.LoadHTMLGlob("templates/*")
 
+/*
 	r.GET("/", func(c *gin.Context) {
-		c.HTML(200, "index.tmpl", gin.H{"Flash": getFlash(sessions.Default(c), "notice")})
+		session := sessions.Default(c)
+		c.HTML(200, "index.tmpl", gin.H{"Flash": getFlash(session, "notice")})
+		session.Delete("notice")
+		session.Save()
 	})
+*/
 
 	r.POST("/login", func(c *gin.Context) {
 		user, err := attemptLogin(c.Request)
 		session := sessions.Default(c)
-		notice := ""
 		if err != nil || user == nil {
+			c.Redirect(302, "/")
+			//notice := ""
 			switch err {
 			case ErrBannedIP:
-				notice = "You're banned."
+				c.SetCookie("t", "b", 0, "", "", false, false)
+				//notice = "You're banned."
 			case ErrLockedUser:
-				notice = "This account is locked."
+				c.SetCookie("t", "l", 0, "", "", false, false)
+				//notice = "This account is locked."
 			default:
-				notice = "Wrong username or password"
+				c.SetCookie("t", "w", 0, "", "", false, false)
+				//notice = "Wrong username or password"
 			}
 
-			session.Set("notice", notice)
-			session.Save()
-			c.Redirect(302, "/")
+			//session.Set("notice", notice)
+			//session.Save()
+			//c.Redirect(302, "/")
 			return
 		}
 
+		c.Redirect(302, "/mypage")
 		session.Set("user_id", strconv.Itoa(user.ID))
 		session.Save()
-		c.Redirect(302, "/mypage")
+		//c.Redirect(302, "/mypage")
 	})
 
 	r.GET("/mypage", func(c *gin.Context) {
@@ -96,9 +107,10 @@ func main() {
 		currentUser := getCurrentUser(session.Get("user_id"))
 
 		if currentUser == nil {
+			c.Redirect(302, "/")
 			session.Set("notice", "You must be logged in")
 			session.Save()
-			c.Redirect(302, "/")
+			//c.Redirect(302, "/")
 			return
 		}
 
