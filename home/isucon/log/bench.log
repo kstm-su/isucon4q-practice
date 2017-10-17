@@ -1,87 +1,31 @@
-13:01:18 type:info	message:launch benchmarker
-13:01:18 type:warning	message:Result not sent to server because API key is not set
-13:01:18 type:info	message:init environment
-13:01:36 type:info	message:run benchmark workload: 1
-13:01:37 type:fail	reason:Expected html text is match: 127.1.0.12, got 127.1.0.22	method:GET	uri:/mypage
-13:01:38 type:fail	reason:Expected html text is match: 127.1.0.21, got 127.1.0.62	method:GET	uri:/mypage
-13:01:38 type:fail	reason:Expected html text is match: 127.1.0.42, got 127.1.0.102	method:GET	uri:/mypage
-13:01:38 type:fail	reason:Expected html text is match: 127.1.0.123, got 127.1.0.7	method:GET	uri:/mypage
-13:01:39 type:fail	reason:Expected html text is match: 127.1.0.45, got 127.1.0.94	method:GET	uri:/mypage
-13:01:39 type:fail	reason:Expected html text is match: 127.1.0.42, got 127.1.0.74	method:GET	uri:/mypage
-13:01:39 type:fail	reason:Expected html text is match: 127.1.0.21, got 127.1.0.16	method:GET	uri:/mypage
-13:01:40 type:fail	reason:Expected html text is match: 127.1.0.111, got 127.1.0.83	method:GET	uri:/mypage
-13:01:41 type:fail	reason:Expected html text is match: 127.1.0.90, got 127.1.0.100	method:GET	uri:/mypage
-13:01:41 type:fail	reason:Expected html text is match: 127.1.0.27, got 127.1.0.44	method:GET	uri:/mypage
-13:01:41 type:fail	reason:Expected html text is match: 127.1.0.96, got 127.1.0.20	method:GET	uri:/mypage
-13:01:45 type:fail	reason:Expected html text is match: 127.1.0.108, got 127.1.0.73	method:GET	uri:/mypage
-13:01:46 type:fail	reason:Expected html text is match: 127.1.0.45, got 127.1.0.109	method:GET	uri:/mypage
-13:01:46 type:fail	reason:Expected html text is match: 127.1.0.102, got 127.1.0.121	method:GET	uri:/mypage
-13:01:47 type:fail	reason:Expected html text is match: 127.1.0.105, got 127.1.0.35	method:GET	uri:/mypage
-13:01:48 type:fail	reason:Expected html text is match: 127.1.0.45, got 127.1.0.59	method:GET	uri:/mypage
-13:01:48 type:fail	reason:Expected html text is match: 127.1.0.6, got 127.1.0.44	method:GET	uri:/mypage
-13:01:50 type:fail	reason:Expected html text is match: 127.1.0.39, got 127.1.0.79	method:GET	uri:/mypage
-13:01:50 type:fail	reason:Expected html text is match: 127.1.0.3, got 127.1.0.88	method:GET	uri:/mypage
-13:01:51 type:fail	reason:Expected html text is match: 127.1.0.27, got 127.1.0.43	method:GET	uri:/mypage
-13:01:52 type:fail	reason:Expected html text is match: 127.1.0.66, got 127.1.0.82	method:GET	uri:/mypage
-13:01:55 type:fail	reason:Expected html text is match: 127.1.0.144, got 127.1.0.161	method:GET	uri:/mypage
-13:01:55 type:fail	reason:Expected html text is match: 127.1.0.177, got 127.1.0.188	method:GET	uri:/mypage
-13:01:56 type:fail	reason:Expected html text is match: 127.1.0.171, got 127.1.0.251	method:GET	uri:/mypage
-13:01:56 type:fail	reason:Expected html text is match: 127.1.0.243, got 127.1.0.245	method:GET	uri:/mypage
-13:01:56 type:fail	reason:Expected html text is match: 127.1.0.129, got 127.1.0.211	method:GET	uri:/mypage
-13:01:58 type:fail	reason:Expected html text is match: 127.1.0.216, got 127.1.0.186	method:GET	uri:/mypage
-13:01:58 type:fail	reason:Expected html text is match: 127.1.0.213, got 127.1.0.144	method:GET	uri:/mypage
-13:01:59 type:fail	reason:Expected html text is match: 127.1.0.213, got 127.1.0.167	method:GET	uri:/mypage
-13:02:00 type:fail	reason:Expected html text is match: 127.1.0.252, got 127.1.0.178	method:GET	uri:/mypage
-13:02:00 type:fail	reason:Expected html text is match: 127.1.0.201, got 127.1.0.155	method:GET	uri:/mypage
-13:02:00 type:fail	reason:Expected html text is match: 127.1.0.138, got 127.1.0.163	method:GET	uri:/mypage
-13:02:01 type:fail	reason:Expected html text is match: 127.1.0.189, got 127.1.0.199	method:GET	uri:/mypage
-13:02:03 type:fail	reason:Expected html text is match: 127.1.0.240, got 127.1.0.150	method:GET	uri:/mypage
-13:02:03 type:fail	reason:Expected html text is match: 127.1.0.159, got 127.1.0.188	method:GET	uri:/mypage
-13:02:03 type:fail	reason:Expected html text is match: 127.1.0.249, got 127.1.0.156	method:GET	uri:/mypage
-13:02:05 type:fail	reason:Expected html text is match: 127.1.0.138, got 127.1.0.130	method:GET	uri:/mypage
-13:02:06 type:fail	reason:Expected html text is match: 127.1.0.219, got 127.1.0.226	method:GET	uri:/mypage
-13:02:07 type:fail	reason:Expected html text is match: 127.1.0.198, got 127.1.0.229	method:GET	uri:/mypage
-13:02:08 type:fail	reason:Expected html text is match: 127.1.0.177, got 127.1.0.170	method:GET	uri:/mypage
-13:02:10 type:fail	reason:Expected html text is match: 127.1.1.72, got 127.1.1.5	method:GET	uri:/mypage
-13:02:12 type:fail	reason:Expected html text is match: 127.1.1.75, got 127.1.1.127	method:GET	uri:/mypage
-13:02:12 type:fail	reason:Expected html text is match: 127.1.1.15, got 127.1.1.125	method:GET	uri:/mypage
-13:02:13 type:fail	reason:Expected html text is match: 127.1.1.90, got 127.1.1.79	method:GET	uri:/mypage
-13:02:14 type:fail	reason:Expected html text is match: 127.1.1.72, got 127.1.1.113	method:GET	uri:/mypage
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:15 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
-13:02:15 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:15 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
-13:02:17 type:fail	reason:Expected html text is match: 127.1.1.27, got 127.1.1.64	method:GET	uri:/mypage
-13:02:17 type:fail	reason:Expected html text is match: 127.1.1.12, got 127.1.1.76	method:GET	uri:/mypage
-13:02:18 type:fail	reason:Expected html text is match: 127.1.1.108, got 127.1.1.65	method:GET	uri:/mypage
-13:02:19 type:fail	reason:Expected html text is match: 127.1.1.39, got 127.1.1.106	method:GET	uri:/mypage
-13:02:19 type:fail	reason:Expected html text is match: 127.1.1.99, got 127.1.1.41	method:GET	uri:/mypage
-13:02:20 type:fail	reason:Expected html text is match: 127.1.1.87, got 127.1.1.96	method:GET	uri:/mypage
-13:02:20 type:fail	reason:Expected html text is match: 127.1.1.6, got 127.1.1.1	method:GET	uri:/mypage
-13:02:21 type:fail	reason:Expected html text is match: 127.1.1.102, got 127.1.1.79	method:GET	uri:/mypage
-13:02:22 type:fail	reason:Expected html text is match: 127.1.1.69, got 127.1.1.34	method:GET	uri:/mypage
-13:02:22 type:fail	reason:Expected html text is match: 127.1.1.66, got 127.1.1.53	method:GET	uri:/mypage
-13:02:24 type:fail	reason:Expected html text is match: 127.1.1.93, got 127.1.1.152	method:GET	uri:/mypage
-13:02:26 type:fail	reason:Expected html text is match: 127.1.1.153, got 127.1.1.227	method:GET	uri:/mypage
-13:02:27 type:fail	reason:Expected html text is match: 127.1.1.165, got 127.1.1.196	method:GET	uri:/mypage
-13:02:28 type:fail	reason:Expected html text is match: 127.1.1.30, got 127.1.1.67	method:GET	uri:/mypage
-13:02:30 type:fail	reason:Expected html text is match: 127.1.1.249, got 127.1.1.209	method:GET	uri:/mypage
-13:02:31 type:fail	reason:Expected html text is match: 127.1.1.180, got 127.1.1.242	method:GET	uri:/mypage
-13:02:32 type:fail	reason:Expected html text is match: 127.1.1.231, got 127.1.1.170	method:GET	uri:/mypage
-13:02:34 type:fail	reason:Expected html text is match: 127.1.1.204, got 127.1.1.205	method:GET	uri:/mypage
-13:02:35 type:fail	reason:Expected html text is match: 127.1.1.246, got 127.1.1.154	method:GET	uri:/mypage
-13:02:35 type:fail	reason:Expected html text is match: 127.1.1.135, got 127.1.1.205	method:GET	uri:/mypage
-13:02:35 type:fail	reason:Expected html text is match: 127.1.1.228, got 127.1.1.141	method:GET	uri:/mypage
-13:02:36 type:info	message:finish benchmark workload: 1
-13:02:41 type:info	message:check banned ips and locked users report
-13:02:41 type:report	count:banned ips	value:230
-13:02:42 type:report	count:locked users	value:3059
-13:02:42 type:fail	reason:Missmatch banned Users	message:Report checking is failed. Do not send score.
-13:02:42 type:score	success:53765	fail:77	score:11614
+13:06:32 type:info	message:launch benchmarker
+13:06:32 type:warning	message:Result not sent to server because API key is not set
+13:06:32 type:info	message:init environment
+13:06:50 type:info	message:run benchmark workload: 1
+13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:05 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:06 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:06 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:06 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:06 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:44 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+13:07:44 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:44 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:44 type:fail	reason:Expected html text is match: Wrong username or password, got This account is locked.	method:GET	uri:/
+13:07:44 type:fail	reason:Expected location is miss match /mypage, got: /	method:GET	uri:/
+13:07:50 type:info	message:finish benchmark workload: 1
+13:07:55 type:info	message:check banned ips and locked users report
+13:07:55 type:report	count:banned ips	value:267
+13:07:55 type:report	count:locked users	value:3197
+13:07:55 type:fail	reason:Missmatch banned Users	message:Report checking is failed. Do not send score.
+13:07:55 type:score	success:68455	fail:21	score:14787
