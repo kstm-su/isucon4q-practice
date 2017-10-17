@@ -5,6 +5,7 @@
 /etc/*
 !/etc/supervisord.conf
 !/etc/my.cnf
+!/etc/nginx/
 
 !/home/
 /home/*
