@@ -11,3 +11,5 @@ export PATH=/home/isucon/.local/perl/bin:$PATH
 export PATH=/home/isucon/.local/php/bin:$PATH
 export PATH=/home/isucon/.local/php/sbin:$PATH
 export GOPATH=/home/isucon/gocode
+
+[[ -s "/home/isucon/.gvm/scripts/gvm" ]] && source "/home/isucon/.gvm/scripts/gvm"
