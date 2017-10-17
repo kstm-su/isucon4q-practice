@@ -14,6 +14,34 @@ var (
 	ErrWrongPassword = errors.New("Wrong password")
 )
 
+var (
+	LoginLogDB = make([]int, 200001)
+	LoginLogDBIndexIP = make(map[string]int, 70000)
+)
+
+func initializeInmemmoryDB() error{
+	rows, err := db.Query("SELECT user_id, count(1) FROM login_log GROUP BY user_id")
+	if err != nil {
+		return err
+	}
+	for rows.Next() {
+		var id, count int
+		rows.Scan(&id, &count)
+		LoginLogDB[id] = count
+	}
+	rows, err = db.Query("SELECT ip, count(1) FROM login_log GROUP BY ip")
+	if err != nil {
+		return err
+	}
+	for rows.Next() {
+		var count int
+		var ip string
+		rows.Scan(&ip, &count)
+		LoginLogDBIndexIP[ip] = count
+	}
+	return nil
+}
+
 func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error {
 	succ := 0
 	if succeeded {
@@ -32,6 +60,14 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
 		time.Now(), userId, login, remoteAddr, succ,
 	)
 
+	if succeeded == true {
+		LoginLogDB[user.ID] = 0
+		LoginLogDBIndexIP[remoteAddr] = 0
+	} else {
+		LoginLogDB[user.ID]++
+		LoginLogDBIndexIP[remoteAddr]++
+	}
+
 	return err
 }
 
@@ -40,6 +76,7 @@ func isLockedUser(user *User) (bool, error) {
 		return false, nil
 	}
 
+/*
 	var ni sql.NullInt64
 	row := db.QueryRow(
 		"SELECT COUNT(1) AS failures FROM login_log WHERE "+
@@ -55,11 +92,14 @@ func isLockedUser(user *User) (bool, error) {
 	case err != nil:
 		return false, err
 	}
+*/
+	return UserLockThreshold <= LoginLogDB[user.ID], nil
 
-	return UserLockThreshold <= int(ni.Int64), nil
+	//return UserLockThreshold <= int(ni.Int64), nil
 }
 
 func isBannedIP(ip string) (bool, error) {
+/*
 	var ni sql.NullInt64
 	row := db.QueryRow(
 		"SELECT COUNT(1) AS failures FROM login_log WHERE "+
@@ -75,8 +115,10 @@ func isBannedIP(ip string) (bool, error) {
 	case err != nil:
 		return false, err
 	}
+*/
+	return IPBanThreshold <= LoginLogDBIndexIP[ip], nil
 
-	return IPBanThreshold <= int(ni.Int64), nil
+	//return IPBanThreshold <= int(ni.Int64), nil
 }
 
 func attemptLogin(req *http.Request) (*User, error) {

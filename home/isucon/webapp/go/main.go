@@ -43,6 +43,8 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
+
+	initializeInmemmoryDB()
 }
 
 func main() {
@@ -100,6 +102,12 @@ func main() {
 		r.JSON(200, map[string][]string{
 			"banned_ips":   bannedIPs(),
 			"locked_users": lockedUsers(),
+		})
+	})
+
+	m.Get("/version", func(r render.Render) {
+		r.JSON(200, map[string]string{
+			"version":   "1",
 		})
 	})
 
