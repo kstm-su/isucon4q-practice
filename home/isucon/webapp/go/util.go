@@ -3,7 +3,6 @@ package main
 import (
 	"crypto/sha256"
 	"fmt"
-	//"github.com/martini-contrib/sessions"
 	"github.com/gin-contrib/sessions"
 	"io"
 	"os"
