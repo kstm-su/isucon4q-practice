@@ -1,19 +1,10 @@
-16:39:14 type:info	message:launch benchmarker
-16:39:14 type:warning	message:Result not sent to server because API key is not set
-16:39:14 type:info	message:init environment
-16:39:33 type:info	message:run benchmark workload: 16
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/images/isucon-bank.png
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootstrap.min.css
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
-16:40:33 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/isucon-bank.css
-16:40:33 type:info	message:finish benchmark workload: 16
-16:40:38 type:info	message:check banned ips and locked users report
-16:40:38 type:report	count:banned ips	value:118
-16:40:38 type:report	count:locked users	value:3652
-16:40:38 type:info	message:Result not sent to server because API key is not set
-16:40:38 type:score	success:119861	fail:9	score:25898
+16:41:29 type:info	message:launch benchmarker
+16:41:29 type:warning	message:Result not sent to server because API key is not set
+16:41:29 type:info	message:init environment
+16:41:48 type:info	message:run benchmark workload: 3
+16:42:48 type:info	message:finish benchmark workload: 3
+16:42:53 type:info	message:check banned ips and locked users report
+16:42:53 type:report	count:banned ips	value:435
+16:42:53 type:report	count:locked users	value:3739
+16:42:53 type:info	message:Result not sent to server because API key is not set
+16:42:53 type:score	success:119960	fail:0	score:25913
