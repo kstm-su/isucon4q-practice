@@ -6,6 +6,9 @@
 !/etc/supervisord.conf
 !/etc/my.cnf
 !/etc/nginx/
+!/etc/security/
+/etc/security/*
+!/etc/security/limits.conf
 
 !/home/
 /home/*
