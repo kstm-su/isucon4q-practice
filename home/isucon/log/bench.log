@@ -1,10 +1,10 @@
-13:45:39 type:info	message:launch benchmarker
-13:45:39 type:warning	message:Result not sent to server because API key is not set
-13:45:39 type:info	message:init environment
-13:45:57 type:info	message:run benchmark workload: 8
-13:46:57 type:info	message:finish benchmark workload: 8
-13:47:02 type:info	message:check banned ips and locked users report
-13:47:02 type:report	count:banned ips	value:439
-13:47:02 type:report	count:locked users	value:3591
-13:47:02 type:info	message:Result not sent to server because API key is not set
-13:47:02 type:score	success:109810	fail:0	score:23723
+13:48:13 type:info	message:launch benchmarker
+13:48:13 type:warning	message:Result not sent to server because API key is not set
+13:48:13 type:info	message:init environment
+13:48:31 type:info	message:run benchmark workload: 4
+13:49:31 type:info	message:finish benchmark workload: 4
+13:49:36 type:info	message:check banned ips and locked users report
+13:49:36 type:report	count:banned ips	value:413
+13:49:36 type:report	count:locked users	value:3597
+13:49:36 type:info	message:Result not sent to server because API key is not set
+13:49:36 type:score	success:107540	fail:0	score:23231
