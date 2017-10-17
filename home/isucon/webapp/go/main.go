@@ -3,12 +3,15 @@ package main
 import (
 	"database/sql"
 	"fmt"
+	"log"
+	"net"
 	"github.com/go-martini/martini"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/martini-contrib/render"
 	"github.com/martini-contrib/sessions"
 	"net/http"
 	"strconv"
+	"os"
 )
 
 var db *sql.DB
@@ -18,6 +21,7 @@ var (
 )
 
 func init() {
+	log.Println("initialize start")
 	dsn := fmt.Sprintf(
 		"%s:%s@tcp(%s:%s)/%s?parseTime=true&loc=Local",
 		getEnv("ISU4_DB_USER", "root"),
@@ -45,6 +49,7 @@ func init() {
 	}
 
 	initializeInmemmoryDB()
+	log.Println("initialize done")
 }
 
 func main() {
@@ -104,6 +109,12 @@ func main() {
 			"locked_users": lockedUsers(),
 		})
 	})
+	m.Get("/reportx", func(r render.Render) {
+		r.JSON(200, map[string][]string{
+			"banned_ips":   bannedIPsx(),
+			"locked_users": lockedUsersx(),
+		})
+	})
 
 	m.Get("/version", func(r render.Render) {
 		r.JSON(200, map[string]string{
@@ -117,6 +128,17 @@ func main() {
 	m.Get("/LoginLogDBIndexIP", func(r render.Render) {
 		r.JSON(200, LoginLogDBIndexIP)
 	})
+	m.Get("/P", func(r render.Render) {
+		r.JSON(200, LastLoginDBIndexUserID[195001:195100])
+	})
 
-	http.ListenAndServe(":8080", m)
+	var socket_path = "/tmp/golang-webapp.sock"
+	os.Remove(socket_path)
+
+	socketListener, err := net.Listen("unix", socket_path)
+	if err != nil {
+		panic(err)
+	}
+
+	http.Serve(socketListener, m)
 }
