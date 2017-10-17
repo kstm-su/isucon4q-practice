@@ -8,12 +8,16 @@ cp /var/log/nginx/error.log /var/log/nginx/error.log.old
 
 service nginx restart
 service mysqld restart
-#supervisorctl restart isucon_go
+
+/home/isucon/init.sh
+supervisorctl restart isucon_go
+
+sleep 10
 
 echo 'start benchmark'
-output=`/home/isucon/benchmarker bench`
+output=`/home/isucon/benchmarker bench --workload ${1:-16}`
 echo 'complete benchmark'
-echo $output > /home/isucon/log/bench.log
+echo "$output" > /home/isucon/log/bench.log
 
 mysqldumpslow -s t /var/log/mysql-slow.sql > /home/isucon/log/mysqlslowdump.log
 cat /var/log/nginx/access.log | /opt/kataribe -conf /opt/kataribe.toml > /home/isucon/log/kataribe.log
