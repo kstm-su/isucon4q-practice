@@ -11,7 +11,7 @@ service mysqld restart
 output=`/home/isucon/benchmarker bench`
 
 mysqldumpslow -s t /var/log/mysql-slow.sql > /home/isucon/log/mysqlslowdump.log
-cat /var/log/nginx/access.log | kataribe -conf /opt/kataribe.toml > /home/isucon/log/kataribe.log
+cat /var/log/nginx/access.log | /opt/kataribe -conf /opt/kataribe.toml > /home/isucon/log/kataribe.log
 
 git reset
 git add /home/isucon/log
