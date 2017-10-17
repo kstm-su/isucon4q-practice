@@ -111,5 +111,12 @@ func main() {
 		})
 	})
 
+	m.Get("/LoginLogDB", func(r render.Render) {
+		r.JSON(200, LoginLogDB)
+	})
+	m.Get("/LoginLogDBIndexIP", func(r render.Render) {
+		r.JSON(200, LoginLogDBIndexIP)
+	})
+
 	http.ListenAndServe(":8080", m)
 }

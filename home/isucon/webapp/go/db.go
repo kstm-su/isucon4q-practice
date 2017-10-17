@@ -15,8 +15,8 @@ var (
 )
 
 var (
-	LoginLogDB = make([]int, 200001)
-	LoginLogDBIndexIP = make(map[string]int, 70000)
+	LoginLogDB = make([]int, 200010)
+	LoginLogDBIndexIP = make(map[string]int, 80000)
 )
 
 func initializeInmemmoryDB() error{
@@ -29,7 +29,11 @@ func initializeInmemmoryDB() error{
 		rows.Scan(&id, &count)
 		LoginLogDB[id] = count
 	}
-	rows, err = db.Query("SELECT ip, count(1) FROM login_log GROUP BY ip")
+	//rows, err = db.Query("SELECT ip, count(1) FROM login_log GROUP BY ip")
+	rows, err = db.Query(
+		"SELECT ip, t0.cnt FROM "+
+			"(SELECT ip, MAX(succeeded) as max_succeeded, COUNT(1) as cnt FROM login_log GROUP BY ip) "+
+			"AS t0 WHERE t0.max_succeeded = 0")
 	if err != nil {
 		return err
 	}
@@ -60,11 +64,13 @@ func createLoginLog(succeeded bool, remoteAddr, login string, user *User) error 
 		time.Now(), userId, login, remoteAddr, succ,
 	)
 
-	if succeeded == true {
+	if succeeded {
 		LoginLogDB[user.ID] = 0
 		LoginLogDBIndexIP[remoteAddr] = 0
 	} else {
-		LoginLogDB[user.ID]++
+		if user != nil {
+			LoginLogDB[user.ID]++
+		}
 		LoginLogDBIndexIP[remoteAddr]++
 	}
 
@@ -115,10 +121,9 @@ func isBannedIP(ip string) (bool, error) {
 	case err != nil:
 		return false, err
 	}
+	return IPBanThreshold <= int(ni.Int64), nil
 */
 	return IPBanThreshold <= LoginLogDBIndexIP[ip], nil
-
-	//return IPBanThreshold <= int(ni.Int64), nil
 }
 
 func attemptLogin(req *http.Request) (*User, error) {
