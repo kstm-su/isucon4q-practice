@@ -1,10 +1,17 @@
-13:58:33 type:info	message:launch benchmarker
-13:58:33 type:warning	message:Result not sent to server because API key is not set
-13:58:33 type:info	message:init environment
-13:58:52 type:info	message:run benchmark workload: 16
-13:59:52 type:info	message:finish benchmark workload: 16
-13:59:57 type:info	message:check banned ips and locked users report
-13:59:57 type:report	count:banned ips	value:46
-13:59:57 type:report	count:locked users	value:3552
-13:59:57 type:info	message:Result not sent to server because API key is not set
-13:59:57 type:score	success:107530	fail:0	score:23234
+14:35:05 type:info	message:launch benchmarker
+14:35:05 type:warning	message:Result not sent to server because API key is not set
+14:35:05 type:info	message:init environment
+14:35:24 type:info	message:run benchmark workload: 16
+14:36:24 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+14:36:24 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+14:36:24 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+14:36:24 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+14:36:24 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+14:36:24 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+14:36:24 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+14:36:24 type:info	message:finish benchmark workload: 16
+14:36:29 type:info	message:check banned ips and locked users report
+14:36:29 type:report	count:banned ips	value:89
+14:36:29 type:report	count:locked users	value:3583
+14:36:29 type:info	message:Result not sent to server because API key is not set
+14:36:29 type:score	success:113235	fail:7	score:24468
