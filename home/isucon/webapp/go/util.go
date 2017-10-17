@@ -3,7 +3,8 @@ package main
 import (
 	"crypto/sha256"
 	"fmt"
-	"github.com/martini-contrib/sessions"
+	//"github.com/martini-contrib/sessions"
+	"github.com/gin-contrib/sessions"
 	"io"
 	"os"
 )
@@ -24,6 +25,7 @@ func getFlash(session sessions.Session, key string) string {
 		return ""
 	} else {
 		session.Delete(key)
+		session.Save()
 		return value.(string)
 	}
 }
